@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interface information</title>
+</head>
+<body>
+    <h2>Data from interface {{interface}} from switch {{switch}}</h2>
+    </br>
+    <p>
+
+        {%for result in data %}
+        <ul>
+            {% for key,value in result.items() %}
+                {% if key != "Switch_name" and key != "Interface_Name" %}
+                        <li>{{key}}: {{value}}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+    </p>
+</body>
+</html>

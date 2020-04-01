@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch information</title>
+</head>
+<body>
+    <h2>Interfaces from switch {{switch}}</h2>
+    </br>
+    <p>
+        {%
+        for result in data %}
+            <ul>
+            {% for key,value in result.items() %}
+                {% if key != "Switch_name"%}
+                    <li>{{key}}: {{value}}</li>
+                {%endif%}
+            {% endfor %}
+            </ul>
+            </br>
+        {% endfor %}
+    </p>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
