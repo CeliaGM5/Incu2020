@@ -1,0 +1,39 @@
+Education bot - Celia Gómez Megías
+
+Bot ID: Y2lzY29zcGFyazovL3VzL0FQUExJQ0FUSU9OLzk4MDdjY2I5LTFlZDItNGZlNy1iMTg4LTA5MDFiZDk0ODM3Ng
+
+Bot Token: M2FiNGM1NzItMGZhZi00OGUxLWFjMjItNzMxMDIyNzE3ZDU2NTE0YmE3YzEtNGRm_PF84_consumer
+
+--------------------------------
+
+WEBHOOKS creation
+
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1dFQkhPT0svM2IyYjVkZmQtYzMzMC00NDM2LWFkMzgtMDY1ODNkMDQzMjZl",
+  "name": "Celia_Private_Lessons",
+  "targetUrl": "http://640171cd.ngrok.io/",
+  "resource": "messages",
+  "event": "created",
+  "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9jb25zdW1lcg",
+  "createdBy": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZmFlYjRkNy02Y2E5LTRmNGQtYWEzMy1jM2Y3YWRlYTU3YjU",
+  "appId": "Y2lzY29zcGFyazovL3VzL0FQUExJQ0FUSU9OL0NmMzkyNWU5NDFmMzhhYTc0M2Y0MmFiNzcwZmZhZjFhNTIyMjcxZDI5OTQ4NDhjNjk2YWMwYTEwN2Q2YTg5MjI3",
+  "ownedBy": "creator",
+  "status": "active",
+  "created": "2020-04-08T17:16:52.898Z"
+}
+
+
+---------------------------
+
+ROOM ID creation
+
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1JPT00vZTQ4MjhlOTAtNzliZS0xMWVhLWE1YjctYWRiMmUxMDFiOWRi",
+  "title": "Education_bot",
+  "type": "group",
+  "isLocked": false,
+  "lastActivity": "2020-04-08T17:32:17.273Z",
+  "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZmFlYjRkNy02Y2E5LTRmNGQtYWEzMy1jM2Y3YWRlYTU3YjU",
+  "created": "2020-04-08T17:32:17.273Z",
+  "ownerId": "consumer"
+}
